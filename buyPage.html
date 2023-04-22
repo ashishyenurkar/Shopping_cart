@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./buyPage.css">
+</head>
+<body>
+
+    <div id="product-detail">
+        
+    </div>
+
+    <div class="shipping-address-page" style="display: block;">
+        <h1>Select or Add a Shipping Address</h1>
+        
+        <!-- Choose Default Address -->
+        <div class="address-list" id="addList">
+          <h2>Choose an Existing Address</h2>
+          <ul>
+            <li>
+              <input type="radio" id="address1" name="address" value="John Doe, 123 Main St, Anytown, CA 12345">
+              <label for="address1">John Doe, 123 Main St, Anytown, CA 12345</label>
+            </li>
+            <li>
+              <input type="radio" id="address2" name="address" value="Jane Smith, 456 Oak St, Anycity, NY 67890">
+              <label for="address2">Jane Smith, 456 Oak St, Anycity, NY 67890</label>
+            </li>
+            <li>
+              <input type="radio" id="address3" name="address" value="Bob Johnson, 789 Elm St, Anystate, TX 23456">
+              <label for="address3">Bob Johnson, 789 Elm St, Anystate, TX 23456</label>
+            </li>
+          </ul>
+          
+        </div>
+        
+        
+        <div><button id="cstmAdd">Custome Address</button></div>
+        
+        <!-- Form For Adding Custom Address -->
+        <div class="address-form" id="addForm" style="display: none;">
+          <h2>Add or Edit an Address</h2>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address">
+            
+            <label for="city">City</label>
+            <input type="text" id="city" name="city">
+            
+            <label for="state">State</label>
+            <input type="text" id="state" name="state">
+            
+            <label for="zip">Zip Code</label>
+            <input type="text" id="zip" name="zip">
+            
+           
+          </form>
+        </div>
+        <button type="submit" id="submit-btn">Save Address</button>
+      </div>
+
+
+
+   
+    
+    <script src="./buyPage.js"></script>
+</body>
+</html>

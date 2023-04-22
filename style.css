@@ -1,0 +1,125 @@
+body{
+   
+}
+
+/* nav bar style */
+
+ .brand{
+    width: 50%;
+    margin-right: auto;
+}
+ .cart{
+   width:20%;
+    display: flex;
+   
+   
+}
+.cart span{
+    color: white;
+    font-size: x-large;
+    
+}
+nav{
+    width: 100%;
+    background-color: rgb(0,131,196);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 3%;
+}
+
+/* Content Page CSS */
+/* Set a background color for the page */
+body {
+  background-color: #f1f1f1;
+}
+section h1{
+  color: #c0392b;
+  text-align: center;
+}
+
+/* Style for the shopping cart container */
+#cart-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* Style for each cart item */
+.cart-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease-in-out;
+  width: 250px;
+}
+
+/* Hover style for each cart item */
+.cart-item:hover {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Style for the cart item image */
+.cart-item img {
+  max-width: 100%;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+/* Style for the cart item name */
+.cart-item h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/* Style for the cart item price */
+.cart-item p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Style for the remove button */
+.cart-item button {
+  margin-top: auto;
+  padding: 0.5rem 1rem;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover style for the remove button */
+.cart-item button:hover {
+  background-color: #c0392b;
+}
+
+/* Style for the buy now button */
+.buy-now-btn {
+  margin-top: 10px;
+  padding: 0.5rem;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover style for the buy now button */
+.buy-now-btn:hover {
+  background-color: #27ae60;
+}
